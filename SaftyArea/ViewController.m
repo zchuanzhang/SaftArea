@@ -25,7 +25,8 @@
     }
     NSLog(@"安全区域 bottom %lf - top %lf",safeAreaH,safteTop);
     
-    
+    CGFloat screenH = [[UIScreen mainScreen] bounds].size.height;
+    CGFloat screenW = [[UIScreen mainScreen] bounds].size.width;
     
     // Do any additional setup after loading the view, typically from a nib.
 }
