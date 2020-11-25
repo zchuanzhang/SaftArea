@@ -28,6 +28,7 @@
     CGFloat screenH = [[UIScreen mainScreen] bounds].size.height;
     CGFloat screenW = [[UIScreen mainScreen] bounds].size.width;
     
+    CGFloat s = screenH;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
